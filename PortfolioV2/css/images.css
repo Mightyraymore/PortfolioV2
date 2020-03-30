@@ -1,0 +1,12 @@
+section.one img {
+  display: block;
+  border: 8px solid rgb(76, 72, 72);
+  border-radius: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.footer img {
+  float: right;
+  margin-left: 75rem;
+}

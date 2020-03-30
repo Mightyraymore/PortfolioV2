@@ -1,0 +1,60 @@
+/* openweathermap.org API */
+.weather-container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  display: flex;
+  /*justify-content: center;*/
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+
+.weather {
+  font-size: 22px;
+  float: left;
+}
+
+.temp {
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item-CurrentWeather {
+  text-align: center;
+  display: block;
+  font-size: 22px;
+}
+
+.item-WeatherLocation {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+
+.item-WeatherCondition {
+  margin-right: 8rem;
+  display: block;
+  font-size: 18px;
+}
+
+/*child grid to contain flexbox holding weather divs*/
+.item-c {
+  grid-column: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: rgb(94, 12, 12);
+}
+
+/*flex container*/
+.flex-container-weather {
+  display: block flex;
+  flex-direction: column;
+}
+
+.icon {
+  /*float: right; */
+  margin-right: auto;
+}
